@@ -13,13 +13,14 @@ Ini adalah skrip Bash yang dirancang untuk memperluas partisi dan logical volume
 Pastikan Anda memahami konsekuensi dan risiko yang terkait dengan mengubah partisi dan logical volume pada sistem Anda. Pastikan untuk melakukan backup data yang penting sebelum menjalankan skrip ini.
 
 ## Penggunaan
-1. Salin skrip di bawah ini dan tempelkan dan simpan menjadi file `expand-volume.sh`.
-   `wget https://raw.github.com/xxx`
+1. Salin skrip di bawah ini dan tempelkan dan simpan menjadi file `expand-volume.sh` :
+   
+   `wget https://raw.githubusercontent.com/m34l/Resize-Disk-LVM/main/expand-volume.sh -O expand-volume.sh`
 
-2. Berikan izin eksekusi kepada berkas skrip dengan menjalankan perintah berikut:
+3. Berikan izin eksekusi kepada berkas skrip dengan menjalankan perintah berikut:
    `chmod +x expand-volume.sh`
    
-3. Jalankan skrip dengan perintah:
+4. Jalankan skrip dengan perintah:
    `./expand-volume.sh`
 
 ## Catatan Penting
